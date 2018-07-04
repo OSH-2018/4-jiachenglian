@@ -9,11 +9,9 @@
 #include <sched.h>
 #include <math.h>
 #include <sys/time.h>
-
 #include <x86intrin.h>
 
 #define PAGE_SIZE    (1 << 12)
-#define BITS_READ    8
 
 static char hack_array[256 * PAGE_SIZE];
 
